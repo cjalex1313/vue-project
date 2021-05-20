@@ -15,6 +15,21 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
+  {
+    path: '/declarative-rendering',
+    name: 'DeclarativeRendering',
+    component: () => import('../views/gettingStarted/DeclarativeRendering.vue'),
+  },
+  {
+    path: '/handling-user-input',
+    name: 'HandlingUserInput',
+    component: () => import('../views/gettingStarted/HandlingUserInput.vue'),
+  },
+  {
+    path: '/conditionals-and-loops',
+    name: 'ConditionalsAndLoops',
+    component: () => import('../views/gettingStarted/ConditionalsAndLoops.vue'),
+  },
 ];
 
 const router = createRouter({
