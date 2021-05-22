@@ -4,7 +4,8 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/declarative-rendering">Declarative rendering</router-link> |
     <router-link to="/handling-user-input"> Handling user input</router-link> |
-    <router-link to="/conditionals-and-loops">Conditionals and loops</router-link>
+    <router-link to="/conditionals-and-loops">Conditionals and loops</router-link> |
+    <router-link to="/lifecycle">Lifecycle</router-link>
   </div>
 </template>
 

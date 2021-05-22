@@ -30,6 +30,11 @@ const routes = [
     name: 'ConditionalsAndLoops',
     component: () => import('../views/gettingStarted/ConditionalsAndLoops.vue'),
   },
+  {
+    path: '/lifecycle',
+    name: 'Lifecycle',
+    component: () => import('../views/appAndCompInstances/Lifecycle.vue'),
+  },
 ];
 
 const router = createRouter({
